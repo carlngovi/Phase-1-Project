@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eat Restaurant</title>
+  <link rel="icon" href="./images/restaurant_FILL0_wght400_GRAD0_opsz24.svg" type="image/x-icon" />
+  <link href="./style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <header id="Navi">
+    <div id="Nav-Bar">
+      <ul class="nav" id="Nav-ul">
+        <b>
+          <li class="nav-item"><a href="#Home">Home</a></li>
+        </b>
+        <b>
+          <li class="nav-item"><a href="#Breakfast">Breakfast</a></li>
+        </b>
+        <b>
+          <li class="nav-item"><a href="#Dinner">Dinner</a></li>
+        </b>
+        <b>
+          <li class="nav-item"><a href="#Quick-bites">Quick Bites</a></li>
+        </b>
+        <b>
+          <li class="nav-item"><a href="#Checkout"><img src="./images/cart.svg" alt="cart" id="cart"></a></li>
+        </b>
+      </ul>
+    </div>
+  </header>
+  <section id="Home" class="background-img">
+    <div id="about-home">
+      <h1 class="H1">Feeling hungry?</h1><br><br>
+      <p>Look no further</p>
+      <p>Get to enjoy a variety of meals from</p>
+      <p>Breakfast, Dinner to Quick-bites while looking for a snack</p>
+      <p>"Leave your taste buds wanting more!"</p><br><br>
+      <h1 class="H1">EXPLORE</h1><br><br><br>
+      <div>
+        <button><a href="#Breakfast">BREAKFAST</a></button>
+        <button><a href="#Dinner">DINNER</a></button>
+        <button><a href="#Quick-bites">QUICK-BITES</a></button>
+        <button><a href="#Checkout">CHECK-OUT</a></button>
+      </div>
+    </div>
+    </div>
+  </section>
+  <section id="Breakfast" class="background-img">
+    <div id="breakfast-img-container">
+      <div class="breakfast-img">
+        <img src="./images/blacktea.jpg"onclick="addToCart('Black Tea')" id="img" title="Black-Tea $5.00" ><img src="./images/tea.jpg" onclick="addToCart('White-Tea')" id="img" title="White-Tea $5.00"><br>
+        <img src="./images/black-coffee.jpg"onclick="addToCart('Black-Coffee')" id="img" title="Black-Coffee $5.00"><img src="./images/whitecoffee.jpg"onclick="addToCart('White-Coffee')" id="img" title="White-Coffee $5.00"><br>
+      </div>
+      <div class="breakfast-img">
+        <img src="./images/fruit-cake.jpg"onclick="addToCart('Fruit-Cake')" id="img" title="Fruit-Cake $5.00"><img src="./images/donoughts.jpg"onclick="addToCart('Donoughts')" id="img" title="Donoughts $3.00"><br>
+        <img src="./images/whole-wheat-bread.jpg"onclick="addToCart('Whole-Wheat-Bread')" id="img" title="Whole-Wheat-Bread $3.00"><img src="./images/pancakes.jpg"onclick="addToCart('Pancakes')" id="img" title="Pancakes $3.00"><br>
+        <div id="breakfast-txt"><br><br>
+          <p class="breakfast-txt">Jump start you day with</p>
+          <p class="breakfast-txt">a wide selection</p>
+          <p class="breakfast-txt">from our menu</p>
+          <p class="breakfast-txt"><b>CLICK TO ORDER</b></p>
+          <button><a href="#Checkout">CHECK-OUT</a></button>
+        </div>
+      </div>
+      <div class="breakfast-img">
+        <img src="./images/boiled-eggs.jpg"onclick="addToCart('Boiled-egs')" id="img" title="Boiled-egs $3.00"><img src="./images/eggs.jpg"onclick="addToCart('Fried-Eggs')" id="img" title="Fried-Eggs $3.00"><br>
+        <img src="./images/sausages.jpg"onclick="addToCart('Sausages')" id="img" title="Sausages $3.00"><img src="./images/bacon.jpg"onclick="addToCart('Bacon')" id="img" title="Bacon $3.00">
+      </div>
+    </div>
+  </section>
+  <section id="Dinner" class="background-img">
+
+  </section>
+  <section id="Quick-bites" class="background-img">
+
+  </section>
+  <section id="Checkout" class="background-img">
+    <div id="cart">
+      <h2>Shopping Cart</h2>
+      <ul id="cart-items">
+          
+      </ul>
+  </div>
+  </section>
+
+  <script src="./index.js"></script>
+</body>
+
+</html>

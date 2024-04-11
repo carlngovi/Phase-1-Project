@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+#Nav-Bar {
+	padding-left: 70%;
+	padding-top: 20px;
+	position: fixed;
+	background: #fff;
+	top: 0;
+	right: 0;
+	left: 0;
+	opacity: 0.5;
+}
+
+ul {
+	display: inline-flex;
+}
+
+header{
+	position: fixed;
+	background: #fff;
+}
+.nav {
+	gap: 2rem;
+	list-style: none;
+	font-size: 1rem;
+}
+
+a {
+	color: gray;
+	text-decoration: underline;
+	text-underline-offset: 0.5rem;
+	text-decoration-color:  #008CBA;
+	text-decoration-thickness: 20%;
+}
+
+.H1{
+	font-size: 300%;
+}
+#cart{
+	width: 35px;
+	height: 35px;
+}
+p {
+	font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	font-size: 200%;
+	color: white;
+	cursor: default;
+}
+
+p:hover , h1:hover{
+	cursor: default;
+}
+section {
+	height: 100vh;
+}
+
+#about-home {
+	padding-top: 10%;
+	text-align: center;
+	color: white; 
+}
+
+#Home{
+	background-image: url(./images/home.jpeg);
+	background-color: hsla(255, 255, 255, 0.5);
+}
+
+#Breakfast{
+	background-image: url(./images/cappuccino.jpg);
+}
+
+#Lunch{
+	background-image: url(./images/pilau.jpg);
+}
+
+#Dinner{
+	background-image: url(./images/porkribs.jpg);
+}
+
+#Quick-bites{
+	background-image: url(./images/burger.jpg);
+}
+.background-img{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+button{
+	border: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+button:hover{
+	background-color: #008CBA;
+  color: white;
+}
+
+#breakfast-img-container{
+	padding-top: 10px;
+}
+img{
+	width: 300px;
+	height: 300px;
+	border-radius: 12px;
+}
+img:hover{
+	cursor: pointer;
+	background-color: #f1f1f1;
+	border: 1px solid #ccc;
+	padding: 8px;
+	
+}
+.breakfast-img{
+	text-align: right;
+	display: flex;
+	margin: 5px;
+}
+#breakfast{
+	color: white;
+}
+#breakfast-txt{
+	text-align: end;
+	margin-left: 100px;
+	padding-left: 100px;
+}

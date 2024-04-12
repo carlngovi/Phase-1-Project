@@ -17,7 +17,7 @@ html {
 
 #Nav-Bar {
 	padding-left: 70%;
-	padding-top: 20px;
+	padding-top: 25px;
 	position: fixed;
 	background: #fff;
 	top: 0;
@@ -30,10 +30,11 @@ ul {
 	display: inline-flex;
 }
 
-header{
+header {
 	position: fixed;
 	background: #fff;
 }
+
 .nav {
 	gap: 2rem;
 	list-style: none;
@@ -44,107 +45,253 @@ a {
 	color: gray;
 	text-decoration: underline;
 	text-underline-offset: 0.5rem;
-	text-decoration-color:  #008CBA;
+	text-decoration-color: #008CBA;
 	text-decoration-thickness: 20%;
 }
 
-.H1{
+.H1 {
 	font-size: 300%;
 }
-#cart{
+
+#cart {
 	width: 35px;
 	height: 35px;
 }
+
 p {
 	font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+	font-weight: 400;
+	font-style: normal;
 	font-size: 200%;
 	color: white;
 	cursor: default;
 }
 
-p:hover , h1:hover{
+p:hover,
+h1:hover {
 	cursor: default;
 }
-section {
+
+#Breakfast,
+#Dinner,
+#Quick-bites,
+#Home {
 	height: 100vh;
+}
+
+#Checkout {
+	height: 90vh;
 }
 
 #about-home {
 	padding-top: 10%;
 	text-align: center;
-	color: white; 
+	color: white;
 }
 
-#Home{
+#Home {
 	background-image: url(./images/home.jpeg);
 	background-color: hsla(255, 255, 255, 0.5);
 }
 
-#Breakfast{
+#Breakfast {
 	background-image: url(./images/cappuccino.jpg);
 }
 
-#Lunch{
+#Lunch {
 	background-image: url(./images/pilau.jpg);
 }
 
-#Dinner{
+#Dinner {
 	background-image: url(./images/porkribs.jpg);
 }
 
-#Quick-bites{
+#Quick-bites {
 	background-image: url(./images/burger.jpg);
 }
-.background-img{
+
+.background-img {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
 	background-size: cover;
 }
 
-button{
+button {
 	border: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-}
-button:hover{
-	background-color: #008CBA;
-  color: white;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
 }
 
-#breakfast-img-container{
+button:hover {
+	background-color: #008CBA;
+	color: white;
+}
+
+.img-container {
 	padding-top: 10px;
 }
-img{
+
+img {
 	width: 300px;
 	height: 300px;
 	border-radius: 12px;
 }
-img:hover{
+
+img:hover {
 	cursor: pointer;
 	background-color: #f1f1f1;
 	border: 1px solid #ccc;
 	padding: 8px;
-	
+
 }
-.breakfast-img{
+
+.breakfast-img,
+.Dinner-img,
+.q-b-img {
 	text-align: right;
 	display: flex;
 	margin: 5px;
+	padding-left: 40px;
 }
-#breakfast{
+
+#breakfast {
 	color: white;
 }
-#breakfast-txt{
-	text-align: end;
-	margin-left: 100px;
-	padding-left: 100px;
+
+.img-txt {
+	right: 0;
+	align-content: end;
+}
+
+.breakfast-img {
+	margin-right: 50px;
+}
+
+#Checkout {
+	padding-left: 400px;
+}
+
+#Cart- {
+	text-align: center;
+}
+
+#cart-items {
+	list-style-type: none;
+}
+
+#breakfast {
+	margin: 40px;
+}
+
+.popup {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.4);
+	padding-top: 200px;
+}
+
+.popup-content {
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+}
+
+.close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+form {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+input[type=text],
+input[type=tel],
+select {
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	background-color: #4CAF50;
+	color: white;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	float: right;
+}
+
+input[type=submit]:hover {
+	background-color: #45a049;
+}
+
+.box-container {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+	gap: 1.5rem;
+}
+
+.box-container .box h3 {
+	padding: .5rem 0;
+	font-size: 2rem;
+	color: var(--black);
+}
+
+.box-container .box a {
+	display: block;
+	padding: .5rem 0;
+	font-size: 1.5rem;
+	color: var(--light-color);
+}
+
+.box-container .box a:hover {
+	color: var(--green);
+	text-decoration: underline;
+}
+
+.credit {
+	text-align: center;
+	border-top: .1rem solid rgba(0, 0, 0, .1);
+	font-size: 1.5rem;
+	color: black;
+	padding: .5rem;
+	padding-top: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+.credit span {
+	color: var(--green);
+}
+.box{
+	padding-left: 150px;
 }

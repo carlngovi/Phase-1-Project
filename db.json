@@ -1,0 +1,224 @@
+{
+    "breakfast": [
+        {
+            "id": 1,
+            "name": "Black-Tea",
+            "price": 5.00,
+            "image": "https://shorturl.at/gjFIU"
+        },
+        {
+            "id": 2,
+            "name": "tea",
+            "price": 5.00,
+            "image": "https://shorturl.at/nrEZ9"
+        },
+        {
+            "id": 3,
+            "name": "Black-Coffee",
+            "price": 5.00,
+            "image": "https://shorturl.at/sAHP1"
+        },
+        {
+            "id": 4,
+            "name": "White-Coffee",
+            "price": 5.00,
+            "image": "https://shorturl.at/DLTZ1"
+        },
+        {
+            "id": 5,
+            "name": "Fruit-Cake",
+            "price": 3.00,
+            "image": "https://shorturl.at/imLN4"
+        },
+        {
+            "id": 6,
+            "name": "Donuts",
+            "price": 3.00,
+            "image": "https://shorturl.at/bjrv4"
+        },
+        {
+            "id": 7,
+            "name": "Whole-Wheat-Bread",
+            "price": 3.00,
+            "image": "https://rb.gy/lll4ak"
+        },
+        {
+            "id": 8,
+            "name": "Pancakes",
+            "price": 3.00,
+            "image": "https://rb.gy/4o6v25"
+        },
+        {
+            "id": 9,
+            "name": "Boiled-Eggs",
+            "price": 1.50,
+            "image": "https://rb.gy/ecrdgl"
+        },
+        {
+            "id": 10,
+            "name": "Fried-Eggs",
+            "price": 1.50,
+            "image": "https://rb.gy/j7hm0w"
+        },
+        {
+            "id": 11,
+            "name": "Sausages",
+            "price": 1.50,
+            "image": "https://rb.gy/la51kb"
+        },
+        {
+            "id": 12,
+            "name": "Bacon",
+            "price": 1.50,
+            "image": "https://shorturl.at/vyJS7"
+        }
+    ],
+    "dinner": [
+        {
+            "id": 13,
+            "name": "Pork-ribs",
+            "price": 20.00,
+            "image": "https://shorturl.at/zBHIZ"
+        },
+        {
+            "id": 14,
+            "name": "Grilled-Chicken",
+            "price": 15.00,
+            "image":"https://shorturl.at/MSW12" 
+        },
+        {
+            "id": 15,
+            "name": "Steak",
+            "price": 20.00,
+            "image": "https://shorturl.at/NY235"
+        },
+        {
+            "id": 16,
+            "name": "Fish-Fillet",
+            "price": 15.00,
+            "image": "https://tinyurl.com/ymcf5wmc"
+        },
+        {
+            "id": 17,
+            "name": "Chicken-Curry",
+            "price": 15.00,
+            "image": "https://shorturl.at/fLO89"
+        },
+        {
+            "id": 18,
+            "name": "Biryani",
+            "price": 15.00,
+            "image": "https://tinyurl.com/4dfwnr8r"
+        },
+        {
+            "id": 19,
+            "name": "Fried-Rice",
+            "price": 15.00,
+            "image": "https://tinyurl.com/mrysume9"
+        },
+        {
+            "id": 20,
+            "name": "Pasta",
+            "price": 15.00,
+            "image": "https://tinyurl.com/4avb66jt"
+        },
+        {
+            "id": 21,
+            "name": "Cesar-Salad",
+            "price": 10.00,
+            "image": "https://tinyurl.com/2umuxv3y"
+        },
+        {
+            "id": 22,
+            "name": "Fried-Vegies",
+            "price": 10.00,
+            "image": "https://tinyurl.com/yp9ezhw4"
+        },
+        {
+            "id": 23,
+            "name": "Tomato-Soup",
+            "price": 10.00,
+            "image": "https://tinyurl.com/44cksfrv"
+        },
+        {
+            "id": 24,
+            "name": "Garden-Salad",
+            "price": 10.00,
+            "image": "https://tinyurl.com/2256cvdj"
+        }
+    ],
+    "quickbites": [
+        {
+            "id": 25,
+            "name": "Pizza",
+            "price": 12.00,
+            "image": "https://tinyurl.com/2mnn74em"
+        },
+        {
+            "id": 26,
+            "name": "Burger",
+            "price": 12.00,
+            "image": "https://tinyurl.com/ydktf727"
+        },
+        {
+            "id": 27,
+            "name": "Sliders",
+            "price": 6.00,
+            "image": "https://tinyurl.com/4crptseu"
+        },
+        {
+            "id": 28,
+            "name": "Fries",
+            "price": 9.00,
+            "image": "https://tinyurl.com/ak6xhue8"
+        },
+        {
+            "id": 29,
+            "name": "Chicken-Wings",
+            "price": 12.00,
+            "image": "https://tinyurl.com/yk9779s9"
+        },
+        {
+            "id": 30,
+            "name": "Fish-Fingers",
+            "price": 9.00,
+            "image":"https://tinyurl.com/ce8hpmv7" 
+        },
+        {
+            "id": 31,
+            "name": "Nachos",
+            "price": 6.00,
+            "image": "https://tinyurl.com/ybv3ah4p"
+        },
+        {
+            "id": 32,
+            "name": "Garlic-Bread",
+            "price": 6.00,
+            "image": "https://tinyurl.com/4cjenr7j"
+        },
+        {
+            "id": 33,
+            "name": "Milkshake",
+            "price": 6.00,
+            "image": "https://tinyurl.com/a342u4pe"
+        },
+        {
+            "id": 34,
+            "name": "Ice-Cream",
+            "price": 6.50,
+            "image": "https://tinyurl.com/528wxevx"
+        },
+        {
+            "id": 35,
+            "name": "Pudding",
+            "price": 4.50,
+            "image": "https://tinyurl.com/mumyv4ez"
+        },
+        {
+            "id": 36,
+            "name": "Soda",
+            "price": 2.00,
+            "image": "https://tinyurl.com/3ythdby3"
+        }
+    ]
+}

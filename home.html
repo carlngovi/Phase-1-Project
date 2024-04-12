@@ -13,33 +13,35 @@
   <!-- this is the navigation bar with functional links to different sections of the website -->
   <header id="Navi">
     <div id="Nav-Bar">
-      <ul class="nav" id="Nav-ul">
-        <!-- links that scroll to the different sections -->
-        <b>
-          <li class="nav-item"><a href="#Home">Home</a></li>
-        </b>
-        <b>
-          <li class="nav-item"><a href="#Breakfast">Breakfast</a></li>
-        </b>
-        <b>
-          <li class="nav-item"><a href="#Dinner">Dinner</a></li>
-        </b>
-        <b>
-          <li class="nav-item"><a href="#Quick-bites">Quick Bites</a></li>
-        </b>
-        <b>
-          <li class="nav-item"><a href="#Checkout">Checkout</a></li>
-        </b>
-        <b>
-          <li class="nav-item"><a href="#About">About</a></li>
-        </b>
-      </ul>
+      <nav class="navbar">
+        <ul class="nav" id="Nav-ul">
+          <!-- links that scroll to the different sections -->
+          <b>
+            <li class="nav-item"><a href="#Home">Home</a></li>
+          </b>
+          <b>
+            <li class="nav-item"><a href="#Breakfast">Breakfast</a></li>
+          </b>
+          <b>
+            <li class="nav-item"><a href="#Dinner">Dinner</a></li>
+          </b>
+          <b>
+            <li class="nav-item"><a href="#Quick-bites">Quick Bites</a></li>
+          </b>
+          <b>
+            <li class="nav-item"><a href="#Checkout">Checkout</a></li>
+          </b>
+          <b>
+            <li class="nav-item"><a href="#About">About</a></li>
+          </b>
+        </ul>
+      </nav>
     </div>
   </header>
   <!-- home section -->
   <section id="Home" class="background-img">
     <div id="about-home">
-      <h1 class="H1">Feeling hungry?</h1><br><br>
+      <h1 class="H1">Feeling hungry?</h1><br>
       <p>Look no further</p>
       <p>Get to enjoy a variety of meals from</p>
       <p>Breakfast, Dinner to Quick-bites while looking for a snack</p>
@@ -55,98 +57,37 @@
     </div>
   </section>
   <!-- breakfast section -->
-  <section id="Breakfast" class="background-img">
-    <div class="img-container">
-      <div class="breakfast-img">
-        <img src="./images/breakfast/blacktea.jpg" onclick="addToCart('Black Tea')" id="img"><img
-          src="./images/breakfast/tea.jpg" onclick="addToCart('White-Tea')" id="img">
-        <img src="./images/breakfast/black-coffee.jpg" onclick="addToCart('Black-Coffee')" id="img"><img
-          src="./images/breakfast/whitecoffee.jpg" onclick="addToCart('White-Coffee')" id="img">
-      </div>
-      <div class="breakfast-img">
-        <img src="./images/breakfast/fruit-cake.jpg" onclick="addToCart('Fruit-Cake')" id="img"><img
-          src="./images/breakfast/donoughts.jpg" onclick="addToCart('Donoughts')" id="img">
-        <img src="./images/breakfast/whole-wheat-bread.jpg" onclick="addToCart('Whole-Wheat-Bread')" id="img"><img
-          src="./images/breakfast/pancakes.jpg" onclick="addToCart('Pancakes')" id="img">
-        <div class="img-txt">
-          <p class="breakfast-txt">Jump start you day with a wide</p>
-          <p class="breakfast-txt">selection from our menu</p>
-          <p class="breakfast-txt"><b>CLICK TO ORDER</b></p>
-          <button><a href="#Checkout">CHECK-OUT</a></button>
-        </div>
-      </div>
-      <div class="breakfast-img">
-        <img src="./images/breakfast/boiled-eggs.jpg" onclick="addToCart('Boiled-egs')" id="img"><img
-          src="./images/breakfast/eggs.jpg" onclick="addToCart('Fried-Eggs')" id="img">
-        <img src="./images/breakfast/sausages.jpg" onclick="addToCart('Sausages')" id="img"><img
-          src="./images/breakfast/bacon.jpg" onclick="addToCart('Bacon')" id="img">
-      </div>
+  <section class="Breakfast" id="breakfast">
+    <h3 class="sub-heading"> Our dishes </h3>
+    <h1 class="heading"> Popular dishes </h1>
+    <div class="box-container" id="breakfast">
+      <!-- Dish cards will be dynamically added here -->
     </div>
+
   </section>
   <!-- dinner section -->
-  <section id="Dinner" class="background-img">
-    <div class="img-container">
-      <div class="Dinner-img">
-        <img src="./images/dinner/pork-ribs.jpg" onclick="addToCart('Pork-Ribs')"><img
-          src="./images/dinner/grilled-chicken.jpg" onclick="addToCart('Grilled-Chicken')">
-        <img src="./images/dinner/steak.jpg" onclick="addToCart('Steak')"><img src="./images/dinner/fish-fillet.jpg"
-          onclick="addToCart('Fish-Fillet')">
-      </div>
-      <div class="Dinner-img">
-        <img src="./images/dinner/chicken-curry.jpg" onclick="addToCart('Chicken-Curry')"><img
-          src="./images/dinner/biryani.jpg" onclick="addToCart('Biryani')">
-        <img src="./images/dinner/fried-rice.jpg" onclick="addToCart('Fried-Rice')"><img src="./images/dinner/pasta.jpg"
-          onclick="addToCart('Pasta')"><br>
-        <div class="img-txt"><br><br>
-          <p class="dinner-txt">Take your tastebuds on a journey</p>
-          <p class="dinner-txt">Choose from a variety suitable for</p>
-          <p class="dinner-txt">Vegans and Meat lovers</p>
-          <p class="dinner-txt"><b>CLICK TO ORDER</b></p>
-          <button><a href="#Checkout">CHECK-OUT</a></button>
-        </div>
-      </div>
-      <div class="Dinner-img">
-        <img src="./images/dinner/Garden-Salad.jpg" onclick="addToCart('Garden-Salad')"><img
-          src="./images/dinner/images.jpeg" onclick="addToCart('Tomato-Soup')">
-        <img src="./images/dinner/fried-veg.jpg" onclick="addToCart('Fried-Rice')"><img src="./images/dinner/cesar.jpg"
-          onclick="addToCart('Cesar-Salad')">
-      </div>
+  <section class="Dinner" id="dinner">
+    <h3 class="sub-heading"> Our dishes </h3>
+    <h1 class="heading"> Popular dishes </h1>
+    <div class="box-container" id="dinner-container">
+      <!-- Dish cards will be dynamically added here -->
     </div>
+
   </section>
   <!-- quick-bites section -->
-  <section id="Quick-bites" class="background-img">
-    <div class="img-container">
-      <div class="q-b-img">
-        <img src="./images/quickbites/pizza.jpg" onclick="addToCart('Pizza')"><img
-          src="./images/quickbites/burger-b.jpg" onclick="addToCart('Burger')">
-        <img src="./images/quickbites/sliders.jpg" onclick="addToCart('Sliders')"><img
-          src="./images/quickbites/Fries.jpg" onclick="addToCart('Fries')">
-      </div>
-      <div class="q-b-img">
-        <img src="./images/quickbites/air-fryer-bbq-chicken-wings-featured.jpg"
-          onclick="addToCart('Chicken-Wings')"><img src="./images/quickbites/fish-fingers.jpg"
-          onclick="addToCart('Fish-Fingers')">
-        <img src="./images/quickbites/nacho.jpg" onclick="addToCart('Nacho')"><img
-          src="./images/quickbites/garlic-bread.jpg" onclick="addToCart('Garlic-Bread')">
-        <div class="img-txt">
-          <p class="q-b-txt">Are you a junkie or a sweet-tooth</p>
-          <p class="q-b-txt"><b>CLICK TO ORDER</b></p>
-          <button><a href="#Checkout">CHECK-OUT</a></button>
-        </div>
-      </div>
-      <div class="q-b-img">
-        <img src="./images/quickbites/Milkshake.jpg" onclick="addToCart('Milkshake')"><img
-          src="./images/quickbites/ice-cream.jpg" onclick="addToCart('Ice-Cream')">
-        <img src="./images/quickbites/pudding.jpg" onclick="addToCart('Pudding')"><img
-          src="./images/quickbites/coke-c.jpg" onclick="addToCart('Coke')">
-      </div>
+  <section class="Quick-bites" id="quickbite">
+    <h3 class="sub-heading"> Our dishes </h3>
+    <h1 class="heading"> Popular dishes </h1>
+    <div class="box-container" id="quick-bites-container">
+      <!-- Dish cards will be dynamically added here -->
     </div>
+
   </section>
   <!-- this is the checkout section -->
   <section id="Checkout">
     <div id="cart">
       <h1 class="H1" id="Cart-">Shopping Cart</h1>
-      <!-- once an image is clicked the name of the items will be displayed below -->
+      <!-- Once an image is clicked, the name of the items will be displayed below -->
       <div id="cart-items">
 
       </div>
@@ -154,8 +95,7 @@
         <button onclick="openPopup()" id="conf-btn">Confirm Order</button>
 
         <div id="myPopup" class="popup">
-
-          <form action="/home.html" method="post">
+          <form id="order-form">
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" placeholder="Your name.." required>
 
@@ -170,9 +110,11 @@
               <option value="cash-on-delivery">Cash on Delivery</option>
             </select>
 
-            <input type="submit" value="Place Order" onclick="alert()">
+            <button type="submit">Place Order</button>
           </form>
         </div>
+      </div>
+    </div>
   </section>
   <!-- this is the footer -->
   <footer id="About">

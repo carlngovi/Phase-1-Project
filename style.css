@@ -1,61 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
 
 * {
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-	font-family: "Poppins", sans-serif;
-	font-weight: 300;
-	font-style: normal;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 html {
-	scroll-behavior: smooth;
-}
-
-#Nav-Bar {
-	padding-left: 70%;
-	padding-top: 25px;
-	position: fixed;
-	background: #fff;
-	top: 0;
-	right: 0;
-	left: 0;
-	opacity: 0.5;
-}
-
-ul {
-	display: inline-flex;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    font-size: 80%;
 }
 
 header {
-	position: fixed;
-	background: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    padding: 1rem 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+    font-weight: bold;
 }
 
-.nav {
-	gap: 2rem;
-	list-style: none;
-	font-size: 1rem;
+.navbar a {
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    padding: .5rem 1.5rem;
+    color: var(--light-color)
 }
 
-a {
-	color: gray;
-	text-decoration: underline;
-	text-underline-offset: 0.5rem;
-	text-decoration-color: #008CBA;
-	text-decoration-thickness: 20%;
+ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+.navbar a {
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    text-decoration-color: #008CBA;
+    text-decoration-thickness: 20%;
+}
+
+.nav li{
+    padding-left: 3vh;
+}
+
+#Home{
+    padding-top: 10vh;
 }
 
 .H1 {
 	font-size: 300%;
-}
-
-#cart {
-	width: 35px;
-	height: 35px;
 }
 
 p {
@@ -63,58 +69,7 @@ p {
 	font-weight: 400;
 	font-style: normal;
 	font-size: 200%;
-	color: white;
 	cursor: default;
-}
-
-p:hover,
-h1:hover {
-	cursor: default;
-}
-
-#Breakfast,
-#Dinner,
-#Quick-bites,
-#Home {
-	height: 100vh;
-}
-
-#Checkout {
-	height: 90vh;
-}
-
-#about-home {
-	padding-top: 10%;
-	text-align: center;
-	color: white;
-}
-
-#Home {
-	background-image: url(./images/home.jpeg);
-	background-color: hsla(255, 255, 255, 0.5);
-}
-
-#Breakfast {
-	background-image: url(./images/cappuccino.jpg);
-}
-
-#Lunch {
-	background-image: url(./images/pilau.jpg);
-}
-
-#Dinner {
-	background-image: url(./images/porkribs.jpg);
-}
-
-#Quick-bites {
-	background-image: url(./images/burger.jpg);
-}
-
-.background-img {
-	background-repeat: no-repeat;
-	background-position: center;
-	background-attachment: fixed;
-	background-size: cover;
 }
 
 button {
@@ -134,10 +89,6 @@ button:hover {
 	color: white;
 }
 
-.img-container {
-	padding-top: 10px;
-}
-
 img {
 	width: 300px;
 	height: 300px;
@@ -150,44 +101,6 @@ img:hover {
 	border: 1px solid #ccc;
 	padding: 8px;
 
-}
-
-.breakfast-img,
-.Dinner-img,
-.q-b-img {
-	text-align: right;
-	display: flex;
-	margin: 5px;
-	padding-left: 40px;
-}
-
-#breakfast {
-	color: white;
-}
-
-.img-txt {
-	right: 0;
-	align-content: end;
-}
-
-.breakfast-img {
-	margin-right: 50px;
-}
-
-#Checkout {
-	padding-left: 400px;
-}
-
-#Cart- {
-	text-align: center;
-}
-
-#cart-items {
-	list-style-type: none;
-}
-
-#breakfast {
-	margin: 40px;
 }
 
 .popup {

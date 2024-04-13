@@ -24,22 +24,31 @@ header {
     left: 0;
     right: 0;
     background: #fff;
-    padding: 1rem 7%;
+    padding: 1rem 4%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    z-index: 1000;
-    box-shadow: var(--box-shadow);
+    z-index: 100;
+    /* box-shadow: var(--box-shadow); */
     font-weight: bold;
 }
 
 .navbar a {
     font-size: 1.7rem;
     border-radius: .5rem;
-    padding: .5rem 1.5rem;
-    color: var(--light-color)
+    padding: .5rem 1rem;
+    /* color: var(--light-color) */
 }
 
+header i{
+	font-size: 30px;
+	cursor: pointer;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding-top: 20px;
+	margin-left: 30px;
+}
 ul {
     display: inline-flex;
     list-style-type: none;
@@ -50,6 +59,7 @@ ul {
     text-underline-offset: 0.5rem;
     text-decoration-color: #008CBA;
     text-decoration-thickness: 20%;
+	/* color: #fff; */
 }
 
 .nav li{

@@ -7,23 +7,24 @@
   <title>Eat Restaurant</title>
   <link rel="icon" href="./images/restaurant_FILL0_wght400_GRAD0_opsz24.svg" type="image/x-icon" />
   <link href="./style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 </head>
 
 <body>
   <!-- this is the navigation bar with functional links to different sections of the website -->
   <header id="Navi">
     <div id="Nav-Bar">
-      <nav class="navbar">
+      <nav class="navbar" style="text-align: center;">
         <ul class="nav" id="Nav-ul">
           <!-- links that scroll to the different sections -->
           <b>
             <li class="nav-item"><a href="#Home">Home</a></li>
           </b>
           <b>
-            <li class="nav-item"><a href="#Breakfast">Breakfast</a></li>
+            <li class="nav-item"><a href="#breakfast">Breakfast</a></li>
           </b>
           <b>
-            <li class="nav-item"><a href="#Dinner">Dinner</a></li>
+            <li class="nav-item"><a href="#dinner">Dinner</a></li>
           </b>
           <b>
             <li class="nav-item"><a href="#Quick-bites">Quick Bites</a></li>
@@ -34,13 +35,15 @@
           <b>
             <li class="nav-item"><a href="#About">About</a></li>
           </b>
+          <!-- <i class="bi bi-brightness-high-fill" id="toggleDark"></i> -->
+          <i class="bi bi-brightness-high" id="toggleDark"></i>
         </ul>
       </nav>
     </div>
   </header>
   <!-- home section -->
   <section id="Home" class="background-img">
-    <div id="about-home">
+    <div id="about-home" style="text-align: center;">
       <h1 class="H1">Feeling hungry?</h1><br>
       <p>Look no further</p>
       <p>Get to enjoy a variety of meals from</p>
@@ -48,16 +51,16 @@
       <p>"Leave your taste buds wanting more!"</p><br><br>
       <h1 class="H1">EXPLORE</h1><br><br><br>
       <div>
-        <button><a href="#Breakfast">BREAKFAST</a></button>
-        <button><a href="#Dinner">DINNER</a></button>
-        <button><a href="#Quick-bites">QUICK-BITES</a></button>
+        <button><a href="#breakfast">BREAKFAST</a></button>
+        <button><a href="#dinner">DINNER</a></button>
+        <button><a href="#quickbite">QUICK-BITES</a></button>
         <button><a href="#Checkout">CHECK-OUT</a></button>
       </div>
     </div>
     </div>
   </section>
   <!-- breakfast section -->
-  <section class="Breakfast" id="breakfast">
+  <section class="Breakfast" id="breakfast" style="text-align: center;">
     <h3 class="sub-heading"> Our dishes </h3>
     <h1 class="heading"> Popular dishes </h1>
     <div class="box-container" id="breakfast">
@@ -66,7 +69,7 @@
 
   </section>
   <!-- dinner section -->
-  <section class="Dinner" id="dinner">
+  <section class="Dinner" id="dinner" style="text-align: center;">
     <h3 class="sub-heading"> Our dishes </h3>
     <h1 class="heading"> Popular dishes </h1>
     <div class="box-container" id="dinner-container">
@@ -75,7 +78,7 @@
 
   </section>
   <!-- quick-bites section -->
-  <section class="Quick-bites" id="quickbite">
+  <section class="Quick-bites" id="quickbite" style="text-align: center;">
     <h3 class="sub-heading"> Our dishes </h3>
     <h1 class="heading"> Popular dishes </h1>
     <div class="box-container" id="quick-bites-container">
@@ -84,7 +87,7 @@
 
   </section>
   <!-- this is the checkout section -->
-  <section id="Checkout">
+  <section id="Checkout" style="text-align: center;">
     <div id="cart">
       <h1 class="H1" id="Cart-">Shopping Cart</h1>
       <!-- Once an image is clicked, the name of the items will be displayed below -->
@@ -139,7 +142,7 @@
       <div class="box">
         <h3>Contact Info</h3>
         <a href="#" class="footer">+254-701-234-567</a>
-        <a href="#" class="footer">+254-123-456-78</a>
+        <a href="#" class="footer">+254-123-456-789</a>
         <a href="#" class="footer">eats.restaurant@gmail.com</a>
         <a href="#" class="footer">carl.ngovi@gmail.com</a>
         <a href="#" class="footer">Waterfront Mall</a>
@@ -155,11 +158,9 @@
 
     </div>
 
-    <div class="credit"> Copyright @2024 by <span>Carl Ngovi</span></div>
-
   </footer>
   <!-- this is the link to the js code -->
-  <script src="./index.js"></script>
+  <script src="./index.js" defer></script>
 </body>
 
 </html>

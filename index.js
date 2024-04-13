@@ -156,3 +156,26 @@ document.getElementById("order-form").addEventListener("submit", function(event)
   // Redirect to the homepage
   window.location.href = "";
 });
+
+const toggle = document.getElementById('toggleDark');
+const body = document.querySelector('body');
+const header = document.querySelector('header');
+
+toggle.addEventListener('click', function(){
+  this.classList.toggle('bi-moon');
+  if(this.classList.toggle('bi-brightness-high')){
+    body.style.background = 'white';
+    body.style.color = 'black';
+    body.style.transition = '3s';
+    header.style.background = 'white';
+    header.style.color = 'black';
+    header.style.transition = '3s';
+  } else {
+    body.style.background = 'black';
+    body.style.color = 'white';
+    body.style.transition = '3s';
+    header.style.background = 'black';
+    header.style.color = 'white';
+    header.style.transition = '3s';
+  }
+})
